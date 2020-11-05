@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+        <title>hambirendeles</title>
+        <link rel="stylesheet" href="css/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/hambirendeles.css">
+    </head>
+    <body>
+        <div>
+            <ul>
+              <li><a class="active" href="hambihome.html">Home</a></li>
+              <li><a href="hambietlap.html">Étlap</a></li>
+              <li><a href="hambirendeles.html">Rendelés</a></li>
+              <li><a href="hambikapcsolat.html">Kapcsolat</a></li>
+              <li><a href="hambigaleria.html">Galéria</a></li>
+              <li><a target="_blank" href="https://goo.gl/maps/aSepgm1GZS6Zkze98">Térkép</a></li>
+            </ul>
+          </div>
+          &nbsp;
+
+
+
+        <div id="urlap">
+            <form >
+                <div id="tartalom">
+                    <div class="cimke"><h3>Kérjük töltse ki megrendelését!</h3></div>
+                    
+                    <div class="cimke">Teljes név*</div>
+                    <div class="beviteli"><input id="mezo" name="name" type="text" required ></div>
+
+                    <div class="cimke"><span style="color: indigo" name="address" type=address>Szállítási cím (Ir. szám, város, utca, házszám)*</span></div>
+                    <div class="beviteli"><input id="mezo" name="address" type="address" required ></div>
+
+                    <div class="cimke"><span style="color: indigo" name="phone">Telefonszám*</span></div>
+                    <div  class="beviteli"><input id="mezo" name="phone" type="tel" placeholder="06-12-345-6789" pattern="06-[0-9]{2}-[0-9]{3}-[0-9]{4}" required ></div>
+                    
+                    
+                    <div class="cimke"><span style="color: indigo" name="email">E-mail*</span></div>
+                    <div class="beviteli"><input id="mezo" name="email" type="email" required ></div> 
+                    
+                    <div class="cimke">Házhozszállítás (+500 egység)</div>
+                    <div class="beviteli">
+                        <select id="mezo" name="f_93"> <option value="">Kérem
+                                válasszon</option>
+                            <option value="53">Kérek</option>
+                            <option value="53">Nem kérek</option>
+                           
+                        </select></div>
+                    
+                        <div class="cimke">Hamburgerek (1000 egység/db)</div>
+                        <div class="cimke">
+                            
+                         <input type="number" id="quantity" name="quantity" min="1" max="20">Marhahambi
+                         <br> 
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">
+                            <span>Sertéshambi</span>
+                            <br>
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">
+                            <span>Pulykahambi</span> 
+                            <br>
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Halashambi
+                            <br>
+                        
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Szójahambi
+                            <br>
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Zöldséghambi
+                            <br>
+                        </div>  
+                        <div class="cimke">Feltétek (100 egység/db)</div>
+                        <div class="cimke">
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Ketcup
+                            <br>
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Chilis ketchup
+                            <br>
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Majonéz
+                            <br>
+                        
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Mustár
+                            <br>
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Uborka
+                            <br>
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Csipőspaprika
+                            <br>
+                        </div>  
+
+                        <div class="cimke">Üdítő italok (300 egység/db)</div>
+                        <div class="beviteli">
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Cola
+                            <br>
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Narancs
+                            <br>
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Citrom
+                            <br>
+                        
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Gyömbér
+                            <br>
+                            
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Szénsavas víz
+                            <br>
+                            <input type="number" id="quantity" name="quantity" min="1" max="20">Mentes víz
+                            <br>
+                        </div>  
+
+                    <div class="cimke">Megjegyzés</div>
+                    <div class="beviteli"><textarea id="mezo" name="f_96"></textarea></div>
+                    <div id="gombtarto"><input id="gomb" type="submit"
+                            name="sub" value="Megrendelés" /></div>
+                </div>
+            </form></div>
+        <!-- WebGalamb Hírlevélkód - form vége JavaScript ellenőrző kód eleje -->
+       
+        <h6>Számold ki mennyit fizetsz!</h6>
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+
+                <div class="col-6">
+                   
+                    <form action="">  
+
+                        <div class="form-group">
+                            <label for="">Hamburger (750 egység/db)</label>
+                            <input id="burgerInput" type="number" name="burger-input"
+                                class="form-control" value="0">
+                        </div>  
+                        <div class="form-group">
+                                <label for="">Feltét (70 egység/db)</label>
+                                <input id="sauceInput" type="number" name="sauce-input"
+                                    class="form-control" value="0">
+                        </div>     
+                        <div class="form-group">
+                            <label for="">Üdítő (270 egység/db)</label>
+                            <input id="drinkInput" type="number" name="drink-input"
+                                class="form-control" value="0">
+                    </div>    
+
+                        <div class="form-group">
+                            Fizetendő: <span class="show-amount">0</span>egység
+                        </div>
+
+                        <button onclick="calcAmountSum()" type="button"
+                            class="btn btn-primary">Számolj..</button>
+
+                    </form>
+
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
+        <script src="js/hambirendeles.js"></script>
+    </body>
+</html>

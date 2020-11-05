@@ -1,0 +1,205 @@
+
+  
+  /* KÉKDOBOZOK KÉKDOBOZOK KÉKDOBOZOK KÉKDOBOZOK*/
+  
+  html
+  {
+    background-color: greenyellow;
+  }
+  .linkimage 
+  {
+    margin-top: 5px;
+    width: 50%;
+    margin-right: 5px;
+    min-width: 200px;
+    max-width: 400px;
+    max-height: 200px;
+    
+    height: 170px;
+  }
+  
+  .linkimage img {
+    width: 300px;
+    height: 200px;
+    max-height: 100%;
+  }
+  
+  #linkcontent1 
+  {
+    display: flex;
+    flex-direction: column;
+    text-decoration-color: black;
+    background-color:red;
+    float: left;
+    max-height: 199px;
+    
+  }
+  #linkcontent2 
+  {
+    display: flex;
+    flex-direction: column;
+    text-decoration-color: black;
+    background-color: blue;
+    float: left;
+    max-height: 199px;
+    
+  }
+  #linkcontent3 
+  {
+    display: flex;
+    flex-direction: column;
+    text-decoration-color: black;
+    background-color: greenyellow;
+    float: left;
+    max-height: 199px;
+   
+  }
+  
+  .linktitle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    border-bottom: grey solid 1px;
+  }
+  
+  
+  
+  .linkdescription {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 77%;
+    height: 110px;
+    position: static;
+    color: black;
+  }
+  
+  .linkburok a 
+  {
+    text-decoration: indigo;
+  }
+  
+  .linkkeret {
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+    border-style: solid;
+    border-color: grey;
+    background-image: linear-gradient(rgb(0, 46, 91),indigo);
+    width: 97%;
+    padding: 3px;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 0px;
+    margin-bottom: 1px;
+    box-shadow: 6px 3px 8px 3px rgba(0, 0, 0, 0.3);
+    min-width: 280px;
+    max-height: 240px;
+    height: 180px;
+  }
+  
+  
+
+  .linkkeret:hover .linkbase 
+  {
+    color: white;
+  }
+  
+  .linkkeret:hover .linkcontent {
+    color: white;
+  }
+  
+.linkimage:hover {
+color: indigo;
+}
+
+  
+  .linkkeret:hover {
+    border-color: white;
+    box-shadow: 6px 3px 8px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .linkburok {
+    margin-bottom: 50px;
+  }
+  
+  .linktorzs {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .entries {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 15%;
+    color: white;
+    padding: 3px;
+    margin: 3px;
+    background-color: indigo;
+  }
+  
+  .entries a {
+    color: white;
+    margin-right: 3px;
+  }
+  /* FEJLÉC CSS */
+
+  ul 
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: lightblue;
+  }
+  
+  li 
+  {
+    float: left;
+    text-decoration: none;
+    
+  }
+  
+  li a 
+  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) 
+  {
+    background-color: #111;
+  }
+  
+  .active 
+  {
+    background-color: #4CAF50;
+  }
+  
+  login-div
+  {
+position: absolute;
+  }
+  
+  .informaciok 
+  {
+      text-align: justify;
+  }
+  h5 
+  {
+    text-align: center;
+    
+  }
+  h2,h3 
+  {
+    text-align: center;
+    color:blue;
+} 
