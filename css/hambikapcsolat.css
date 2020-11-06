@@ -1,4 +1,8 @@
 /*FEJLÉC CSS */
+html
+{
+  background-color: greenyellow;
+}
 ul {
     list-style-type: none;
     margin: 0;
